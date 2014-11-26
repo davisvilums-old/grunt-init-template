@@ -46,12 +46,16 @@ exports.template = function(grunt, init, done) {
 			description: props.description,
 			version: props.version,
 			devDependencies: {
-				"grunt-contrib-concat": "~0.x.x",
-				"grunt-contrib-uglify": "~0.x.x",
-				"grunt-contrib-cssmin": "~0.x.x",
-				"grunt-contrib-sass": "~0.x.x",
-				"grunt-contrib-jshint": "~0.x.x",
-				"grunt-contrib-watch": "~0.x.x"
+    		"grunt": "^0.4.5",
+    		"grunt-concurrent": "^1.0.0",
+    		"grunt-contrib-concat": "^0.5.0",
+    		"load-grunt-config": "^0.16.0"
+
+				// "grunt-contrib-uglify": "~0.x.x",
+				// "grunt-contrib-cssmin": "~0.x.x",
+				// "grunt-contrib-sass": "~0.x.x",
+				// "grunt-contrib-jshint": "~0.x.x",
+				// "grunt-contrib-watch": "~0.x.x"
 			},
 		});
 

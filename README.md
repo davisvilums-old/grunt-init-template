@@ -6,15 +6,15 @@ Using Sass and others
 
 Directory structure
 - app
--- css
--- img
--- js
+- - css
+- - img
+- - js
 - grunt
--- [grunt tasks]
+- - [grunt tasks]
 - src
--- img
--- js
--- scss
+- - img
+- - js
+- - scss
 
 Plan
 CSS
@@ -38,3 +38,8 @@ JS
 HTML
 - includes (?)
 - jade (?)
+
+
+RUN
+grunt-init davis-template (install the template)
+npm install (install plugins)
